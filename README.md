@@ -3,7 +3,7 @@
 An Ansible role that installs [Cantaloupe](https://github.com/medusa-project/cantaloupe) in a Tomcat 8 servlet container on:
 
 * Centos/RHEL 7.x
-* Ubuntu Xenial
+* Ubuntu Xenial or Bionic
 
 ## Role Variables
 
@@ -11,7 +11,7 @@ Available variables are listed below, along with default values:
 
 ```
 # Cantaloupe version
-cantaloupe_version: 3.3.1
+cantaloupe_version: 4.1.1
 # Where to extract the cantaloupe archive
 cantaloupe_install_root: /opt
 # Target of a symlink from the extracted cantaloupe archive 
