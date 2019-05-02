@@ -12,7 +12,7 @@
 - name: Create Cantaloupe symlink
   file:
     state: link
-    src: "{{ cantaloupe_install_root }}/Cantaloupe-{{ cantaloupe_version }}"
+    src: "{{ cantaloupe_install_root }}/cantaloupe-{{ cantaloupe_version }}"
     dest: "{{ cantaloupe_symlink }}"
     owner: "{{ cantaloupe_user }}"
     group: "{{ cantaloupe_group }}"
