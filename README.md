@@ -1,6 +1,8 @@
+**This is an update of Islandora's cantaloupe Ansible role. Islandora' s role is suited to cantaloupe V3, this one has been changed to install Cantaloupe V4.1.1.**
+
 # Ansible Role: Cantaloupe
 
-An Ansible role that installs [Cantaloupe](https://github.com/medusa-project/cantaloupe) in a Tomcat 8 servlet container on:
+An Ansible role that installs [Cantaloupe](https://github.com/medusa-project/cantaloupe) **4.4.1** in a Tomcat 8 servlet container on:
 
 * Centos/RHEL 7.x
 * Ubuntu Xenial or Bionic
